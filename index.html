@@ -1,25 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link type="text/css" rel="stylesheet" href="css/materialize.css">
-  <title>My Info</title>
-  <script type="text/javascript" src="js/popup.js"></script>
-</head>
-<body>
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+<head>
+    <title>My info</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/materialize.min.css">
+
+     <!-- MATERIAL ICON FONT -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Js -->
+    <script src="js/materialize.min.js"></script>
+
+    <style>
+        body {
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)),
+                url(bg/background.png) no-repeat center center fixed;
+            background-size: cover;
+            font-family: "Roboto", sans-serif;
+            color: #fff;
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="black lighten-1" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">panikajo</a>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col s12 m3">
+            <div class="card black darken-1">
+                <div class="card-content white-text">
+                    <h4>About Me</h4>
+                    <h6>Programmer, scripter, nerd.</h6>
+                    <ul class="profile-list">
+                        <li class="clearfix">
+                            <span class="title"><i class="material-icons">email</i></span>
+                            <span class="content">panikajo@gmnail.com</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-  </nav>
+    <div class="row">
+            <div class="col s12 m6">
+                <div class="card black">
+                    <div class="card-content">
+                        <p>
+                            Привет я Дима.
+                            <br>У меня <br>
+                            Есть опыт работы в создании адаптивного сайта при помощи HTML, CSS и Bootstrap.<br>
+                            Есть навыки в графическом редакторе Adobe Photoshop.<br>
+                            Есть немного опыта в Adobe After Effects и Filmora.<br>
+                            Из Редакторов кода пользуюсь Microsoft Visual Code и Notepad++.<br>
+                            Есть малые познания в Javascript и PHP.<br>
+                            Есть малый опыт работы в Git.<br>
+                            Знаю и могу установить WordPress.<br>
+                            Редактирование и заливка расширений для Google Chrome, обфускация и минификация javascript кода, правка js,css,html файлов.<br>
+                            Так-же имеется опыт в Linux системах в основном Centos,но могу изучить и другие. <br>
+                            Есть опыт в сфере монтажной сети.<br>
+                        </p>
+                    </div>
+
+                    <div id="about-btn" class="card-action">
+                        <div class="about-btn">
+                            <a href="#" class="btn waves-effect">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
 </body>
+
 </html>
